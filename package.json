@@ -1,0 +1,47 @@
+{
+  "name": "logic",
+  "version": "1.0.0",
+  "description": "this is module use for whole app",
+  "main": "lib/logic.js",
+  "author": "sa0ee1d",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/runtime": "^7.5.5",
+    "axios": "^0.19.0",
+    "lodash": "^4.17.15",
+    "qs": "^6.9.0",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-transform-runtime": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-stage-2": "^7.0.0",
+    "@types/lodash": "^4.14.138",
+    "@types/node": "^12.7.1",
+    "@types/qs": "^6.5.3",
+    "@types/redux-logger": "^3.0.7",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-add-module-exports": "^1.0.2",
+    "babel-plugin-istanbul": "^5.2.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "cross-env": "^5.2.0",
+    "redux-logger": "^3.0.6",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6",
+    "yargs": "^13.3.0"
+  },
+  "scripts": {
+    "build": "webpack --env dev && webpack --env build",
+    "dev": "webpack --progress --colors --watch --env dev"
+  }
+}
